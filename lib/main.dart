@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:social_app/data/routes.dart';
+import 'package:social_app/ui/home/Home.dart';
+import 'package:social_app/ui/notifications/Notifications.dart';
 
 void main() => runApp(MyApp());
 
@@ -14,7 +15,10 @@ class MyApp extends StatelessWidget {
         fontFamily: 'ProductSans',
         primarySwatch: Colors.blue,
       ),
-      routes: routes,
+      home: Home(),
+      routes: {
+        '/notifications': (_) => Notifications()
+      },
     );
   }
 }
