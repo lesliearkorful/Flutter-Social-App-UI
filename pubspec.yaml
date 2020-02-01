@@ -14,7 +14,7 @@ description: A new Flutter project.
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.6.0 <3.0.0"
 
 dependencies:
   flutter:
@@ -42,12 +42,8 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-   - images/avatars/les.jpg
-   - images/posts/1.jpg
-   - images/posts/2.jpg
-   - images/posts/3.jpg
-   - images/posts/4.jpg
-   - images/posts/5.jpg
+   - images/avatars/
+   - images/posts/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
